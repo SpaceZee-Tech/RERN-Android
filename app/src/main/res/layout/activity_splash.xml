@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Decorative top-left corner line -->
+    <View
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:background="#E8DCC8" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:background="#E8DCC8" />
+
+    <!-- Decorative top-right corner line -->
+    <View
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:background="#E8DCC8" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:background="#E8DCC8" />
+
+    <!-- Center content -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo image -->
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="RERN Logo" />
+
+        <!-- Divider line -->
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp"
+            android:background="#E8DCC8"
+            android:alpha="0.5" />
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HARIHARAN V"
+            android:textSize="13sp"
+            android:textColor="#E8DCC8"
+            android:letterSpacing="0.4"
+            android:layout_marginTop="16dp" />
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="// mild genius"
+            android:textSize="11sp"
+            android:textColor="#666666"
+            android:letterSpacing="0.2"
+            android:layout_marginTop="6dp" />
+
+        <!-- Divider line -->
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#E8DCC8"
+            android:alpha="0.5" />
+
+    </LinearLayout>
+
+    <!-- Bottom decorative corner lines -->
+    <View
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="32dp"
+        android:background="#E8DCC8" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="32dp"
+        android:background="#E8DCC8" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="32dp"
+        android:background="#E8DCC8" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="32dp"
+        android:background="#E8DCC8" />
+
+    <!-- Bottom text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="FOUNDER · CEO · ENTREPRENEUR"
+        android:textSize="9sp"
+        android:textColor="#444444"
+        android:letterSpacing="0.3" />
+
+</RelativeLayout>
